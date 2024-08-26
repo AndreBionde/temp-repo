@@ -1,0 +1,9 @@
+Um arquivo de texto
+ssh-keygen -t rsa -f "/c/Users/Estudos/.ssh/github" -C 'albrj20@gmail.com'
+eval "$(ssh-agent -s)"
+
+# Iniciando o git
+git init
+git config --global user.name "André Bionde"
+git config --global user.email "albrj20@gmail.com"
+git remote add origin git@github.com:AndreBionde/temp-repo.git
